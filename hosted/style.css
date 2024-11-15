@@ -50,7 +50,7 @@ nav:nth-child(1) {
 .domoForm {
     border: 2px solid #338acc;
     height: 35px;
-    width: 700px;
+    width: 1000px;
     margin-top:0px;
     padding-top:10px;
     background-color: #55acee;
@@ -68,6 +68,10 @@ nav:nth-child(1) {
 }
 
 .domoForm input[type=text] {
+    float:left;
+}
+
+.domoForm input[type=number] {
     float:left;
 }
 
@@ -190,6 +194,10 @@ nav:nth-child(1) {
     -ms-transform: rotate(330deg);
     -webkit-transform: rotate(330deg); 
     transform: rotate(330deg);
+}
+
+#greetingForm {
+    float: left;
 }
 
 #domos {
